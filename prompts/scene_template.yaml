@@ -1,0 +1,67 @@
+project: Video_of_SAD_by_AI
+version: "1.0"
+
+character:
+  name: "S.A.D."
+  full_name: "Sailor At Desk"
+  reference_image_required: true
+  identity_lock: true
+
+video:
+  duration_seconds: 4
+  aspect_ratio: "9:16"
+  resolution: "1080x1920"
+  fps: 24
+  camera: "static locked camera"
+  seamless_loop: true
+
+scene:
+  title: "REPLACE_ME"
+  location: "REPLACE_ME"
+  time_of_day: "REPLACE_ME"
+  mood: "melancholic, humorous, cinematic"
+
+main_action:
+  description: "REPLACE_ME"
+  cycle_seconds: "1-3"
+  pace: "slow"
+  effort_level: "visible but controlled"
+  start_pose_equals_end_pose: true
+
+background_motion:
+  - "REPLACE_ME"
+
+secondary_motion:
+  - "subtle hair movement"
+  - "subtle beard movement"
+  - "subtle clothing movement"
+
+audio:
+  ambience:
+    - "REPLACE_ME"
+  rhythmic_sounds:
+    - "REPLACE_ME"
+  music: false
+  narration: false
+  speech: false
+  spatial_depth: true
+
+interactive_design:
+  red_dot_visible: true
+  red_dot_position: "upper safe area"
+  red_dot_motion: "fixed with subtle halo pulse"
+  suggested_caption: "長按紅點，不要放開"
+  platform_speedup: "native long-press 2x playback"
+
+extra_requirements:
+  - "REPLACE_ME"
+
+negative_requirements:
+  - "no character redesign"
+  - "no face change"
+  - "no camera movement"
+  - "no flicker"
+  - "no morphing"
+  - "no extra limbs"
+  - "no scene transition"
+  - "no broken loop"
